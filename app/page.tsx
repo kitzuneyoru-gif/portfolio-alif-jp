@@ -619,7 +619,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-6 text-center md:flex-row md:items-center md:justify-between md:text-left">
 
           <p>
-            © 2026 Alif Ghifari.
+            © 2026 Alif Ghifari.asdasd
           </p>
 
 
