@@ -655,35 +655,20 @@ function SectionHeading({
   title: string;
   center?: boolean;
 }) {
-
   return (
-
     <div
       className={`section-heading ${
         center ? "text-center" : ""
       }`}
     >
-
       <p className="jp-label">
         {japanese}
       </p>
 
-
-      <div className="flex items-center gap-4">
-
-        <h2>
-          {title}
-        </h2>
-
-
-        <span className="heading-mark">
-          ///
-        </span>
-
-      </div>
-
+      <h2>
+        {title}
+      </h2>
     </div>
-
   );
 }
 
